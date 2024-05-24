@@ -9,5 +9,7 @@
 
 ## Set Up and Dockerize the FastAPI Application
 
+![Capture d'écran 2024-05-24 160041](https://github.com/Abder0514/Eval-Repo/assets/53054661/901a0b1d-3feb-4219-ab47-54c0ee2df768)
 
 
+![Capture d'écran 2024-05-24 160004](https://github.com/Abder0514/Eval-Repo/assets/53054661/0f639e16-9762-428c-b67f-04b6421fa3ef)
