@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Configure the default for all requests:
 client = Groq(
-    api_key=os.environ.get("abder token"),
+    api_key=("abder token"),
     # 20 seconds (default is 1 minute)
     timeout=20.0,
     max_retries=1,
