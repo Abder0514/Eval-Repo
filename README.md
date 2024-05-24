@@ -2,9 +2,10 @@
 
 ## Set Up and Test Groq API Account Locally
 
-# J'ai créer les fichier mini_groq.py ainsi que requirements.txt
+J'ai créer les fichier mini_groq.py ainsi que requirements.txt
 
-# J'ai ensuite lancer la commande "uvicorn mini_groq:app --reload --port=5000" pour pouvoir me connecter en local.
+J'ai ensuite lancer la commande "uvicorn mini_groq:app --reload --port=5000" pour pouvoir me connecter en local.
+
 
 ![Capture d'écran 2024-05-24 150649](https://github.com/Abder0514/Eval-Repo/assets/53054661/de22d2b0-44d6-486f-8035-9827b3884984)
 
