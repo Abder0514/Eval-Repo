@@ -14,10 +14,12 @@ J'ai ensuite lancer la commande "uvicorn mini_groq:app --reload --port=5000" pou
 
 ## Set Up and Dockerize the FastAPI Application
 
+J'ai créer un fichier Dockerfile que j'ai ensuite rempli à l'aide des TP fait durant la semaine.
+
 ![Capture d'écran 2024-05-24 160041](https://github.com/Abder0514/Eval-Repo/assets/53054661/901a0b1d-3feb-4219-ab47-54c0ee2df768)
 
+J'ai ensuite créer l'image avec build et j'ai créer un conteneur.
 
 ![Capture d'écran 2024-05-24 160004](https://github.com/Abder0514/Eval-Repo/assets/53054661/0f639e16-9762-428c-b67f-04b6421fa3ef)
-
 
 ![Capture d'écran 2024-05-24 160723](https://github.com/Abder0514/Eval-Repo/assets/53054661/274e055f-02bb-4211-b0e3-16b4e38fbd57)
