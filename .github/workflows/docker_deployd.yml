@@ -1,4 +1,4 @@
-name: FastAPI test 
+name: FastAPI test
 
 on:
   push:
@@ -11,29 +11,24 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      
-name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      
-name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
 
-      
-name: Install Backend Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r ./requirements.txt
+      - name: Install Backend Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./requirements.txt
 
-      
-name: Start Backend Server
-      run: uvicorn app.main:app --reload &
+      - name: Start Backend Server
+        run: uvicorn app.main:app --reload &
 
       #add some test
-      
-name: Test with pytest
-      run: |
-        pip install pytest pytest-cov
-        pytest
+      - name: Test with pytest
+        run: |
+          pip install pytest pytest-cov
+          pytest
